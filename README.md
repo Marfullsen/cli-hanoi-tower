@@ -5,16 +5,12 @@ CLI Hanoi Tower is a command-line puzzle written in Python.
 
 [![screenshot_1](./screenshot_01.png)](https://github.com/Marfullsen/cli-hanoi-tower/blob/master/screenshot_01.png)
 
-[![screenshot_2](./screenshot_02.png)](https://github.com/Marfullsen/cli-hanoi-tower/blob/master/screenshot_02.png)
-
-[![screenshot_3](./screenshot_03.png)](https://github.com/Marfullsen/cli-hanoi-tower/blob/master/screenshot_03.png)
-
 ## Installation
 
 ```
 git clone https://github.com/Marfullsen/cli-hanoi-tower.git
 cd cli-hanoi-tower
-python main.py
+python hanoi-tower.py
 ```
 
 ## How to play
@@ -28,6 +24,12 @@ There are hidden Easter eggs to increase the difficulty!.
 # Resources
 - Carbon - [https://carbon.now.sh/](https://carbon.now.sh/)
 - Background photo by Andre Benz on Unsplash - [https://unsplash.com](https://unsplash.com/photos/AiORnUT6sC0)
+
+# Screenshots
+
+[![screenshot_2](./screenshot_02.png)](https://github.com/Marfullsen/cli-hanoi-tower/blob/master/screenshot_02.png)
+
+[![screenshot_3](./screenshot_03.png)](https://github.com/Marfullsen/cli-hanoi-tower/blob/master/screenshot_03.png)
 
 ## Contributing
 
