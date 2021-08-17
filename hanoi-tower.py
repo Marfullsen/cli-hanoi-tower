@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-from utils import clrscr
+from os import name, system
 
 # Const.
 TOTAL_DISCS = 3
@@ -31,6 +31,17 @@ Note that you can't move an element over a smaller one.
 
 Enter to start the CLI game.
 '''
+
+# Modules.
+def clrscr():
+   ''' Clear Screen, tested on Linux & Windows '''
+   # for mac and linux.
+   if name == 'posix':
+      _ = system('clear')
+   else:
+      # for windows platfroms.
+      _ = system('cls')
+
 def display(visual = DEFAULT_VISUAL):
     if visual == ROWS:
         display_rows()
@@ -123,3 +134,4 @@ if __name__ == "__main__":
             TOTAL_TOWERS = int(input('New value for the total amount of towers: '))
             DEFAULT_VISUAL = input("type 'rows' or 'columns': ")
     main()
+    input('Press "Enter" to quit.')
